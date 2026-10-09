@@ -13,8 +13,8 @@ Delete these instructions as you replace them with your code.
 """
 
 Record_Check = input("Enter your hostname: ")      
-used = 87
-total = 120
+used = 106
+total = 100
 difference = total - used   
 percent = (used / total) * 100   
 status = "OK"   
