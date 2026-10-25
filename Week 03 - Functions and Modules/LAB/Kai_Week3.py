@@ -19,6 +19,7 @@ def status_of(percent):
         return "OVER-LIMIT"
     elif(percent >= 90):
         return "WARNING"
+    return "OK"
 
 def check(used, total):
     """Return percent and difference"""
@@ -37,4 +38,6 @@ print(f"free - {difference:>8.2f}")
 print(f"Percent - {percent:>8.2f}%")
 print(f"Status - {status_of(percent)}")
 print("=" * 34)
+
+
 
